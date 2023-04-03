@@ -3,9 +3,9 @@
 This repository hosts the implementation described in our paper ["Domain-Aligned Data Augmentation for Low-Resource and Imbalanced Text Classification"](https://doi.org/10.1007/978-3-031-28238-6_12). 
 It is based on ["Data Augmentation Using Pre-trained Transformer Models"](https://aclanthology.org/2020.lifelongnlp-1.3.pdf), which it extends by introducing domain alignment and processing of longer texts.
 
-The paper proposes the alignment of existing generic models in task-specific unlabeled data , in order to create better synthetic examples and boost performance in Text Classification tasks. 
+The paper proposes the alignment of existing generic models in task-specific unlabeled data in order to create better synthetic examples and boost performance in Text Classification tasks.
 
-We evaluate in-domain alignment using Decoder-only, Encoder-only and Encoder-Decoder models, using a variety of domain-specific data, in both in-domain and out-of-domain benchmark datasets. We further evaluate the effectiveness of our data augmentation approach in both low-resource and imbalance settings and draw conclusions about the required volume of in-domain data, depending on model size. The following algorithm describes our proposed approach. 
+We evaluate in-domain alignment using Decoder-only, Encoder-only, and Encoder-Decoder models, using a variety of domain-specific data, in both in-domain and out-of-domain benchmark datasets. We further evaluate the effectiveness of our data augmentation approach in both low-resource and imbalance settings and draw conclusions about the required volume of in-domain data, depending on model size. The following algorithm describes our proposed approach. 
 
 <img src="Algorithm.png" alt="Domain-aligned Data Augmentation algorithm" title="Domain-aligned Data Augmentation algorithm">
 
